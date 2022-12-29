@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: hotpink;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 45vw;
+}
+
+div {
+  flex-basis: 12.5%;
+  height: 12.5%;
+}
+
+.black {
+  background-color: #000;
+}
+.white {
+  background-color: #fff;
+}
